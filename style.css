@@ -81,3 +81,7 @@ header {
   margin-left: -5rem;
   border: none;
 }
+.send-icon {
+  height: 80%;
+  width: auto;
+}
