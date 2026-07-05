@@ -36,4 +36,3 @@ Dieses Projekt ist als persönliche Benutzeroberfläche für Ollama gedacht und 
 ## Lizenz
 
 Frei zur privaten Nutzung. Änderungen und Erweiterungen sind willkommen.
-!!!Achtung, dieses Projekt ist noch nicht fertig!!!
