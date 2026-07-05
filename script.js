@@ -1,16 +1,15 @@
-// var input = document.getElementById("SendButton");
-
-// // Execute a function when the user presses a key on the keyboard
-// input.addEventListener("keypress", function (event) {
-//   // If the user presses the "Enter" key on the keyboard
-//   if (event.key === "Enter") {
-//     // Cancel the default action, if needed
-//     event.preventDefault();
-//     // Trigger the button element with a click
-//     document.getElementById("SendButton").click();
-//   }
-// });
+const inputField = document.getElementById("UserInput");
+const sendButton = document.getElementById("SendButton");
 
 function sendMessage() {
+  alert("noch nicht implementiert");
+}
 
+if (inputField && sendButton) {
+  inputField.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault();
+      sendButton.click();
+    }
+  });
 }
